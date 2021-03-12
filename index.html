@@ -12,7 +12,7 @@
     // Louisa: 22.666501302002075, 120.31605844724734
     // hospital 22.668713510650473, 120.31737371300844
     // PUB 22.66860014865409, 120.31647601053501
-    alert("pippo12")
+    alert("pippo13")
     </script>
    <!-- include aframe -->
 <!-- with location based, use aframe v0.9.2 -->
@@ -41,7 +41,7 @@
   <a-scene
   vr-mode-ui="enabled: false"
   embedded
-  arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;   debugUIEnabled: false;"
+  arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;  videoTexture: true;  debugUIEnabled: false;"
 >
 <a-camera gps-camera rotation-reader> </a-camera>
 
@@ -57,7 +57,7 @@
 
     <a-box color="green" gps-entity-place="latitude: 22.668713510650473; longitude: 120.31737371300844;"/>
     
-    <a-entity gltf-model="./magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 22.668713510650473; latitude: 120.31737371300844;" animation-mixer/>
+    <a-entity gltf-model="./magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 22.66860014865409; latitude: 120.66860014865409;" animation-mixer/>
 
 
   </a-scene>
